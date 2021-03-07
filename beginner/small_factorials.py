@@ -53,12 +53,11 @@ for _ in range(int(input())):
     
 
 # solution(3):
+
 import math
-
-n=int(input())
-for x in range(n):
-    i=int(input())
-
+for _ in range(int(input())):
+    n=int(input())
+    print(math.factorial(n))
 
 
 
@@ -77,4 +76,16 @@ try:
         factorial(n)
 except:
     pass
-    print(math.factorial(i))
+
+
+
+# solution(5):    
+try:
+    for _ in range(int(input())):
+        a=int(input())
+        f=1 
+        for i in range(1,a+1):
+            f=f*i  
+        print(f)
+except:
+    pass
