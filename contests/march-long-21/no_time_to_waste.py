@@ -74,5 +74,13 @@ else:
 
 
 
+# solution(3):
+for _ in range(int(input())):
+    s = input()
+    groups = s.split('0')
+    count = len(list(filter(None,groups)))
+    print(count)
+
+
 
 
